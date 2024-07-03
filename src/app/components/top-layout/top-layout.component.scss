@@ -1,0 +1,138 @@
+button{
+    border-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    background: linear-gradient(102deg, #D17165 0%, rgba(107, 58, 52, 0.80) 142.2%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 668px;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.topo-conteudo{
+    display: flex;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    width: 100%;
+}
+
+.topo-lado-esquerdo{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo-lado-esquerdo-logo{
+    margin-bottom: 74px;
+}
+
+.topo-lado-esquerdo h1{
+    color: var(--Beje-principal, #E9E1DC);
+    font-family: Judson;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    width: 325px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.topo-lado-esquerdo p{
+    width: 298px;
+    height: 64px;
+    flex-shrink: 0;
+    color: var(--Coral-claro-3, #FAD8C6);
+    font-family: Judson;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 24.5px;
+}
+
+.topo-lado-esquerdo-subtitulo{
+    color: #FFF;
+    font-family: Judson;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.topo-lado-esquerdo-botao{
+    display: flex;
+    width: 185px;
+    height: 28px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0; 
+    border-radius: 5px;
+    background: var(--Beje-principal, #E9E1DC);
+    color: #D17165;
+    font-family: Judson;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.topo-lado-direito{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.topo-lado-direito nav ul{
+    display: flex;
+    width:100%;
+    height: 21px;
+    flex-shrink: 0;
+    margin-left: auto;
+    justify-content: end;
+}
+
+.topo-lado-direito nav ul li a{
+    font-family: Judson;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 25px;
+    color: #E9E1DC;
+}
+
+.topo-lado-direito-img{
+    margin-left: 45px;
+    margin-top: 57px;
+    margin-right: 52px; 
+}
+
+.topo-onda-escura{
+    z-index: 2;
+    display: flex;
+    margin-top: -20px;
+}
+.topo-onda-escura img{
+    max-width: 100%;
+}
+

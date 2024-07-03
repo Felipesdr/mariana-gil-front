@@ -1,0 +1,132 @@
+main{
+    height: 100%;
+    width: 100%;
+    background: #E9E1DC;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+//QUEM SOU EU
+.quem-sou-eu{
+    display: flex;
+    flex-direction: row;
+    padding-top: 55px;
+}
+.quem-sou-eu-texto{
+    flex: 1;
+}
+
+.quem-sou-eu-texto h2{
+    color: #D17165;
+    text-align: justify;
+    font-family: Judson;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quem-sou-eu-texto p{
+    color: var(--Coral-escuro, #3B1B16);
+    font-family: Judson;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.quem-sou-eu-img{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+//Psicoterapia
+.psicoterapia{
+    margin-top: 86px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.psicoterapia-titutlo{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-image: url('/assets/svg/psicoterapia-fundo-titulo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 7px;
+}
+
+.psicoterapia-titutlo h2{
+    display: flex;
+    width: 146.879px;
+    height: 43.577px;
+    transform: rotate(-6.437deg);
+    justify-content: end;
+    flex-shrink: 0;
+    color: var(--Beje-principal, #E9E1DC);
+    font-family: Judson;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.psicoterapia-conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.psicoterapia-conteudo-esquerdo{
+    margin-top: 150px;
+}
+
+.psicoterapia-conteudo-direito{
+    margin-top: 395px;
+}
+
+.psicoterapia-conteudo-direito-topico,
+.psicoterapia-conteudo-esquerdo-topico{
+    margin-bottom: 415px;
+}
+
+.psicoterapia-conteudo-direito-topico h4,
+.psicoterapia-conteudo-esquerdo-topico h4{
+    color: var(--Coral-escuro, #3B1B16);
+    font-family: Judson;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.psicoterapia-conteudo-esquerdo-topico p,
+.psicoterapia-conteudo-direito-topico p{
+    display: flex;
+    width: 275px;
+    height: 48px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #D17165;
+    font-family: Judson;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.psicoterapia-conteudo-direito-topico p,
+.psicoterapia-conteudo-direito-topico h4{
+    text-align: end;
+}
+
+
+
+
+
