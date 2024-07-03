@@ -8,6 +8,7 @@ main {
 .footer{
     display: flex;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .footer-esquerdo h2{
@@ -37,4 +38,20 @@ main {
     display: flex;
     margin-left: auto;
     align-items: center;
+}
+
+.footer-baixo{
+    display: flex;
+    background-color: #E9E1DC;
+    border-top: 1px solid #D17165;
+    color: #D17165;
+    text-align: justify;
+    font-family: Judson;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+    padding: 5px;
+    justify-content: center;
 }
