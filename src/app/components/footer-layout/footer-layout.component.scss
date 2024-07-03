@@ -1,0 +1,40 @@
+main {
+    box-sizing: border-box;
+    background-color: #E9E1DC;
+    padding-left: 320px;
+    padding-right: 320px;
+}
+
+.footer{
+    display: flex;
+    padding-top: 20px;
+}
+
+.footer-esquerdo h2{
+    flex-shrink: 0;
+    color: #D17165;
+    text-align: justify;
+    font-family: Judson;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-contato-titulo{
+    display: flex;
+}
+
+.footer-esquerdo-contatos{
+    display: flex;
+    margin-top: -30px;
+}
+
+.footer-esquerdo-contatos-icone{
+    margin-right: 45px;
+}
+
+.footer-direito{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
