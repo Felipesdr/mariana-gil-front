@@ -37,6 +37,7 @@ main{
     flex: 1;
     display: flex;
     justify-content: end;
+    box-sizing: border-box;
 }
 
 //Psicoterapia
@@ -126,6 +127,30 @@ main{
     text-align: end;
 }
 
+/* Estilos para dispositivos pequenos (smartphones em modo retrato) */
+@media only screen and (max-width: 599px) {
+    main{
+        margin-top: -5px;
+        height: 100%;
+        width: 100%;
+        background: #E9E1DC;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .quem-sou-eu{
+        flex-wrap: wrap-reverse;
+        padding-top: 25px;
+    }
+    .quem-sou-eu-texto h2{
+       margin-bottom: 5px;
+    }
+
+    .quem-sou-eu-img{
+        margin-bottom: 20px;
+    }
+
+  }
 
 
 
