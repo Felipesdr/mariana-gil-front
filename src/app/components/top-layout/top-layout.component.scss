@@ -168,9 +168,30 @@ main{
         margin-bottom: 37px;
     }
 
+    .topo-lado-esquerdo-botao a {
+        display: flex;
+        width: 185px;
+        height: 28px;
+        padding: 5px;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        flex-shrink: 0; 
+        border-radius: 10px;
+        background: #E9E1DC;
+        color: #D17165;
+        font-family: Judson;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+    }
+
     .topo-lado-direito{
         display: none;  
     }
+
+    
   }
 
   
