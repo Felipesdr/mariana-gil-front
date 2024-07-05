@@ -67,12 +67,10 @@ main {
 
     .footer{
         padding-top: 10px;
+        justify-content: center;
     }
 
-    .footer-esquerdo{
-        display: flex;
-        flex-direction: column;
-    }
+
 
     .footer-esquerdo h2{
         font-size: 18px;
