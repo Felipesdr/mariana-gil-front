@@ -1,0 +1,80 @@
+main{
+    padding-top: 85px;
+    padding-left: 320px;
+    padding-right: 320px;
+    background-color: #E9E1DC;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #D17165;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h1 {
+    width: 457px;
+    color: var(--Coral-principal, #D17165);
+    text-align: center;
+    font-family: Judson;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.busca{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 2px solid var(--Coral-principal, #D17165);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.busca input[type="search"] {
+    width: 80%;
+    height: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que o padding não altere a largura do input */
+    background: var(--Beje-principal, #E9E1DC);
+}
+
+.busca input[type="search"]:focus {
+    background: var(--Beje-principal, #E9E1DC);
+    outline: none;
+}
+
+input[type="search"]::placeholder {
+    color: rgba(209, 113, 101, 0.40);
+    font-family: Judson;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.busca button{
+    height: 90%;
+    border: none;
+    border-radius: 15px;
+    background-color: #E9E1DC;
+}
+
+
+
+
