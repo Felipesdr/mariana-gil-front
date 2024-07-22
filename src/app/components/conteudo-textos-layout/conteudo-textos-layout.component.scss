@@ -1,0 +1,107 @@
+main{
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-top:  54px;
+    padding-bottom: 48px;
+    background-color: #E9E1DC ;
+    // border: 1px solid red;
+}
+
+.texto2,
+.texto1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 78px;
+    
+}
+
+.texto1{
+    background-image: url('/assets/svg/textos-fundo1.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.texto1-img{
+    padding-left: 43px;
+    padding-bottom: 26px;
+}
+
+.texto2-conteudo,
+.texto1-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 221px;
+    flex-shrink: 0;
+}
+
+.texto1-conteudo{
+    align-items: end;
+}
+
+.texto2-conteudo h3,
+.texto1-conteudo h3{
+    color: var(--Coral-principal, #D17165);
+    font-family: Judson;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texto2-conteudo p,
+.texto1-conteudo p{
+    color: var(--Coral-escuro, #3B1B16);
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texto1-conteudo p{
+    text-align: end;
+}
+
+.texto2-conteudo a,
+.texto1-conteudo a{
+    color: var(--Coral-escuro, #D17165);
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: auto;
+}
+
+.texto1-conteudo a{
+    text-align: right;
+}
+
+.texto2-conteudo-subtitle,
+.texto1-conteudo-subtitle{
+    color: var(--Coral-escuro, #3B1B16);
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px ;
+}
+
+.texto2{
+    background-image: url('/assets/svg/textos-fundo2.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.texto2-img{
+    padding-right: 43px;
+    padding-bottom: 26px;
+}
+
+::ng-deep .mat-mdc-paginator-outer-container {
+    background-color: #E9E1DC;
+}
